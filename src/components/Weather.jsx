@@ -32,7 +32,7 @@ function Weather(){
   useEffect(() => {    
     async function handleGetData(){
       setIsError(false);
-      const apiKey = "bce045eb8de5970ec7a49acc5a914ca3";
+      const apiKey = process.env.REACT_APP_API_KEY;
       const unit = "metric";
       try {
         const resources = await 

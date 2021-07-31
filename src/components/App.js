@@ -21,9 +21,7 @@ function App() {
       </main>
       <footer>
         <p>Developed by <span><em>Ana Carolina Coelho Mendes</em></span> </p>
-        <span className="icons"><i class="fab fa-linkedin-in"></i></span>
-        
-        
+               
       </footer>
     </div>
   );
